@@ -1,0 +1,8 @@
+.button {
+  color: var(--white);
+  background-color: transparent;
+  border: 1px solid var(--white);
+  &:hover {
+    background-color: var(--primary-hover);
+  }
+}

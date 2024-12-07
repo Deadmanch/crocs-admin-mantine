@@ -1,0 +1,16 @@
+.input {
+  margin-bottom: 30px;
+  color: var(--white);
+
+  &::placeholder {
+    color: var(--placeholder);
+  }
+}
+
+.button {
+  background-color: var(--primary);
+
+  &:hover {
+    background-color: var(--primary-hover);
+  }
+}

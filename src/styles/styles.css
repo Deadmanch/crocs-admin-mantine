@@ -1,0 +1,15 @@
+:root {
+  --background-color-black: #17172a;
+  --background-color-gray: #2e2d3d;
+  --white: #f7f9ff;
+  --primary: #6741d9;
+  --primary-hover: #4b25bf;
+  --placeholder: #e9ecef;
+
+  --divider: #d0bfff;
+}
+
+body {
+  color: var(--white);
+  background: var(--background-color-black);
+}

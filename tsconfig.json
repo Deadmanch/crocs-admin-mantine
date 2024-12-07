@@ -16,10 +16,12 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
-      "@test-utils": ["./test-utils"]
+      "@/*": ["src/*"],
+      "@public/*": ["public/*"],
+      "@test-utils": ["test-utils"]
     }
   },
-  "include": ["src", "test-utils"]
+  "include": ["src", "test-utils", "src/mock"]
 }

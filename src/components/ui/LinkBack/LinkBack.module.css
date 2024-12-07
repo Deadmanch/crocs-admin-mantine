@@ -1,0 +1,13 @@
+.link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--primary);
+  cursor: pointer;
+  font-size: 17px;
+  text-decoration: none;
+  margin-bottom: 30px;
+
+  &:hover {
+    color: var(--primary-hover);
+  }
+}

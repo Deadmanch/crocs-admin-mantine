@@ -1,0 +1,29 @@
+.button {
+  color: var(--white);
+  font-size: 17px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.primary {
+  background-color: var(--primary);
+  &:hover {
+    background-color: var(--primary-hover);
+  }
+}
+
+.ghost {
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  &:hover {
+    background-color: var(--primary);
+  }
+}
+
+.table {
+  background-color: transparent;
+  border: 1px solid var(--white);
+  &:hover {
+    background-color: var(--primary-hover);
+  }
+}
